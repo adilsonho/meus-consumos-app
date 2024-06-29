@@ -1,0 +1,85 @@
+.input-section-main{
+ padding:15px;
+}
+
+.material-symbols-outlined{
+   color: #4CAF50;
+}
+
+body {
+ font-family: Arial, sans-serif;
+ background-color:#f0f0f0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ margin: 0;
+}
+
+.container {
+ background-image: url("https://static.vecteezy.com/system/resources/previews/006/657/751/non_2x/monthly-expense-planning-reminder-for-appointment-payment-deadline-worker-with-timetable-organizer-schedule-countdown-to-payday-isolated-concept-metaphor-illustration-free-vector.jpg");
+ padding: 0px;
+ background-color: #555;
+ border-radius: 8px;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+ width: 400px;
+}
+
+h1 {
+ margin: 0;
+ text-align: center;
+ margin-bottom: 12px;
+ border-radius: 5px;
+ background-color: #fff;
+ weight:100%;
+ padding: 5px 0;
+ font-family: "Anton", sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ color:#4CAF50;
+}
+
+.input-section {
+ margin-bottom: 10px;
+}
+
+label {
+ display: inline-block;
+ width: 150px;
+}
+
+input[type="number"] {
+ width: 200px;
+ padding: 5px 5px;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+
+button {
+ display: block;
+ width: 100%;
+ background-color:#4CAF50;
+ color: white;
+ border: none;
+ padding: 10px;
+ font-size: 16px;
+ cursor: pointer;
+ border-radius: 5px;
+ margin-top: 10px;
+}
+
+button:hover {
+ background-color: #45a049;
+}
+
+#resultado {
+padding:15px;
+border: 1px solid #000;
+background-color:#fff;
+margin-top: 20px;
+border-radius: 5px;
+width: 92.1%;
+height: 15px;
+font-weight: bold
+}
+
